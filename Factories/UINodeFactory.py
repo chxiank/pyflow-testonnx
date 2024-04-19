@@ -1,5 +1,5 @@
-from PyFlow.Packages.node.Nodes.DemoNode import DemoNode
-from PyFlow.Packages.node.UI.UIDemoNode import UIDemoNode
+from PyFlow.Packages.pyflowtestonnx.Nodes.DemoNode import DemoNode
+from PyFlow.Packages.pyflowtestonnx.UI.UIDemoNode import UIDemoNode
 from PyFlow.UI.Canvas.UINodeBase import UINodeBase
 
 
