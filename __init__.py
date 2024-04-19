@@ -1,13 +1,13 @@
-PACKAGE_NAME = 'node'
+PACKAGE_NAME = 'pyflowtestonnx'
 
 from collections import OrderedDict
 from PyFlow.UI.UIInterfaces import IPackage
 
 # Class based nodes
-from PyFlow.Packages.node.Nodes.DemoNode import DemoNode
+from PyFlow.Packages.pyflowtestonnx.Nodes.DemoNode import DemoNode
 
 # Factories
-from PyFlow.Packages.node.Factories.UINodeFactory import createUINode
+from PyFlow.Packages.pyflowtestonnx.Factories.UINodeFactory import createUINode
 
 _FOO_LIBS = {}
 _NODES = {}
